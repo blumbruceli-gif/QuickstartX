@@ -1,7 +1,7 @@
 # QuickstartX
 
-Blum Quickstart / Fanuc G65 P9700 / P9703 量測路徑規劃器（觸控版，支援 iPad 與桌機）。
-Measurement path planner for Blum Quickstart / Fanuc G65 P9700 / P9703 (touch edition, iPad + desktop).
+Blum Quickstart 量測路徑規劃器（觸控版，支援 iPad 與桌機）。
+Measurement path planner for Blum Quickstart (touch edition, iPad + desktop).
 
 單一 HTML 檔，直接開啟 `index.html` 即可使用。Single-file app — just open `index.html`.
 
