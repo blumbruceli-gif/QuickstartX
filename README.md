@@ -5,8 +5,8 @@ Measurement path planner for Blum Quickstart (touch edition, iPad + desktop).
 
 單一 HTML 檔，直接開啟即可使用。Single-file app — just open the file.
 
-- `index.html`：觸控版 Touch edition
-- `advanced.html`：進階版 Advanced edition（多一個「XY 移動改用 G0 快速移動」選項，啟用前會出現風險警語 / adds an opt-in G0 rapid XY move option with a risk confirmation）
+- `index.html`：標準版（預設）。進階版功能（G0 快速移動、報表）預設隱藏，在標題的 X LOGO 連點 10 下並輸入密碼才開啟。
+  Standard edition by default; advanced features (G0 rapid XY, report) are hidden until unlocked.
 
 作者 Author：布滷斯
 
