@@ -2210,7 +2210,7 @@ renderFeat=function(p){renderFeat0(p);var f=st.feats.find(function(x){return x.i
   if(f){var db=el('button','btn delbtn','刪除此特徵');db.type='button';db.onclick=function(){st.feats=st.feats.filter(function(x){return x.id!==f.id});sel=null;pushHist();renderPane();recompute()};p.appendChild(db)}};
 var AUTHOR='布滷斯';
 
-function advCode(){var d=new Date(),n=d.getFullYear()*10000+(d.getMonth()+1)*100+d.getDate()+1091017,t=String(n);return t.slice(0,-3)+t.slice(-3).split('').map(function(c){return c==='0'?'0':String.fromCharCode(64+(+c))}).join('')}
+function advCode(){var d=new Date(),n=d.getFullYear()*10000+(d.getMonth()+1)*100+d.getDate()+1091017,t=String(n);return t.slice(0,-3)+t.slice(-3).split('').map(function(c){return c==='0'?'Z':String.fromCharCode(64+(+c))}).join('')}
 function setAdv(on){ADV=on;try{localStorage.setItem('qx-adv',on?'1':'0')}catch(e){}var t=$('#proTag');if(t)t.style.display=on?'':'none';if(!on&&st.set.g0xy){st.set.g0xy=false}renderTabs();renderPane();recompute();toast(on?'已開啟進階版':'已回到標準版')}
 function showAdvPw(){var old=$('.dlgbg');if(old)old.remove();
   var bg=el('div','dlgbg'),d=el('div','dlg');d.setAttribute('role','dialog');d.setAttribute('aria-modal','true');
