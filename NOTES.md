@@ -9,11 +9,13 @@
 | 版本 | 說明 | 預設是否修改 |
 |---|---|---|
 | 觸控版 | iPad + 桌機，品牌 QuickstartX，紫色配色 | **是（沒特別指定就只改它）** |
+| 進階版 | 觸控版 + 「XY 移動改用 G0 快速移動」選項（參數設置頁，勾選前需確認警語）。檔案 `advanced.html` | 只有使用者說「進階版」才改（共通功能兩版都要改） |
 | Studio 版 | 非觸控重新設計版，舊品牌名稱 | 只有使用者說「Studio 版」才改 |
 | 原版 | 最早的中英版 | 只有使用者說「原版」才改 |
 
 Claude 上發布的頁面（舊帳號私有，需用 Share 分享或重新發布）：
 - 觸控版：https://claude.ai/artifact/HHU72cq8jzMaJpDMW2n7tb
+- 進階版：https://claude.ai/artifact/HLzEES8n94CPsV2UTA3hNg
 - Studio 版：https://claude.ai/artifact/7vVrB4XFN98CtvKFMQ9eSp
 - 原版：https://claude.ai/artifact/HX8B7rYGVxztvXFQDQYRnW
 - 使用手冊（文件）：https://claude.ai/artifact/8fZhTuDvi6RGDdBF69RP9L
